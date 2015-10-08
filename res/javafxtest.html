@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebViewのテスト</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th>相対パス指定</th>
+          <th>Web上の画像を指定</th>
+          <th>ローカルフォルダの画像を指定</th>
+          <th>クラスパス上の画像を指定</th>
+        </tr>
+        <tr>
+          <td><img id="img1" src="javafxtest.png" width="252" height="98"></td>
+          <td><img id="img2" src="http://www.hos.co.jp/wp-content/uploads/2013/08/javafxtest.png" width="252" height="98"></td>
+          <td><img id="img3" src="file:/c:///Temp/javafxtest.png" width="252" height="98"></td>
+          <td><img id="img4" src="jar:file:/c:/Temp/WebViewTest.jar!/webviewtest/javafxtest.png" width="252" height="98"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
